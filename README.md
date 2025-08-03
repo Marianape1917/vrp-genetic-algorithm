@@ -24,8 +24,9 @@ Genetic algorithm implementation to solve the Vehicle Routing Problem (VRP), aim
 ## Included Files
 
 - `codigo_vrp.py`: Source code of the algorithm.
-- `A045-03f.dat`: Problem instance from VRP-REP.
-- `final/`: Automatically generated folder containing results.
+- `ftv1994.zip`: Data files of the problem instances used for testing.
+- `final_juntos.zip`: Contains all instances along with their corresponding solutions.
+
 
 ---
 
@@ -36,3 +37,4 @@ Make sure you have Python 3 installed, then run:
 ```bash
 pip install numpy matplotlib pandas tqdm
 python codigo_vrp.py
+
